@@ -10,6 +10,7 @@ def menu():
     print("5. Presta uno strumento")
     print("6. Termina prestito strumento")
     print("7. Esci")
+
     return input("Scegli un'opzione >> ")
 
 def main():

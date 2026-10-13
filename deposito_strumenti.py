@@ -49,6 +49,7 @@ class DepositoStrumenti:
 
     def nuovo_prestito(self, data, id_strumento, cognome_allievo):
         """Crea un nuovo prestito"""
+
         # CONTROLLO 1: lo strumento esiste?
         strumento_trovato = None # = niente, vuoto
 
